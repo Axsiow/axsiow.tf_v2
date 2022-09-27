@@ -4,6 +4,8 @@
 
 <script>
 import NavBar from '~/components/NavBar.vue';
+import NuxtLogo from '~/components/NuxtLogo.vue';
+import Footer from '~/components/Footer.vue';
 export default {
     name: "DefaultLayout",
     data() {
@@ -22,6 +24,6 @@ export default {
             ]
         };
     },
-    components: { NavBar }
+    components: { NavBar, NuxtLogo, Footer }
 }
 </script>
