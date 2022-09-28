@@ -1,5 +1,8 @@
 <template>
-	<NavBar />
+	<div class="primary">
+        <NavBar />
+        <Footer />
+    </div>
 </template>
 
 <script>
@@ -12,7 +15,7 @@ export default {
         return {
             items: [
                 {
-                    title: "Home",
+                	title: "Home",
                     icon: "home",
                     to: { name: "index" }
                 },
@@ -27,3 +30,12 @@ export default {
     components: { NavBar, NuxtLogo, Footer }
 }
 </script>
+
+<style>
+.primary {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+</style>
