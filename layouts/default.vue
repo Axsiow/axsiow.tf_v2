@@ -1,7 +1,8 @@
 <template>
 	<div class="primary">
         <NavBar />
-		<Card />
+		<Core />
+		<parcours />
         <Footer />
     </div>
 </template>
