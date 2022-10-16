@@ -142,44 +142,50 @@ export default {
         methods: {
             alertSGAC() {
                 this.$buefy.dialog.alert({
-                    title: 'Space Generation Advisory Council (Bénévolat)',
-                    message: "Le SGAC est une organisation et un réseau mondial non gouvernemental à but non lucratif (US 501(c)3) qui vise à représenter les étudiants universitaires et les jeunes professionnels de l'espace auprès des Nations Unies, des agences spatiales, de l'industrie et du milieu universitaire.<br><br><b>Missions.</b><br>• Réflexion autour de la cybersécurité dans le domaine du spatiale à l'international<br>• co-organisation d'un hackathon",
-                    confirmText: 'Cool!'
+                    title: 'SGAC (bénevolat)',
+                    message: "Le Space Generation Advisory Council est une organisation et un réseau mondial non gouvernemental à but non lucratif (US 501(c)3) qui vise à représenter les étudiants universitaires et les jeunes professionnels de l'espace auprès des Nations Unies, des agences spatiales, de l'industrie et du milieu universitaire.<br><br><b>Missions.</b><br>• Réflexion autour de la cybersécurité dans le domaine du spatiale à l'international<br>• co-organisation d'un hackathon",
+                    canCancel: 'outside',
+					confirmText: 'Cool!'
                 })
             },
             alertSTA() {
                 this.$buefy.dialog.alert({
                     title: 'STMictroelectronics (alternance)',
                     message: "Alternance chez ST Microelectronics sur le site de Crolles en ingénierie réseau. <br><br><b>Gestion du réseau existant.</b><br>• Mise en place de la surveillance des équipements réseaux avec Zabbix Graphana<br>• Intégration des outils Cisco Prime pour les nouvelles gammes de switch Cisco<br><br><b>Sécurisation de l'infrastructure réseau.</b><br>• Participation à la migration du réseau Facilities vers des équipements Cisco avec un objectif de sécurisation et de fiabilisation en lien avec les équipes Facilities<br>• Ajout de switchs manageables dans une zone de laboratoires pour rempalcer des équipements non surveillés et mettre en place un verrouillage NAC en lien avec les équipes du laboratoires.<br><br><b>Cybersécurité.</b><br>• Suivis de tests de pentest effectué sur l'infrastructure et participation à la remédiation de l'attaque<br>• Configuration de firewall Cisco et Palo Alto<br><br><b>Construire et manager un SI.</b><br>• Configuration de nouveaux switchs pour le réseau ST Crolles<br>• Génération de configurations pour le déploiement d'une flotte de switchs<br>• Support des équipements réseaux existants (environ 300 équipements actifs)<br><br><b>Gérer un parc informatique.</b><br>• Ajout de modules à notre outil de gestion des connexions réseaux (cabling)<br>• Utilisation configuration et développement sur la solution Cisco Prime<br><br><b>Développer les actions d'information et communication.</b><br>• Documentation des missions effectuées pour garantir leur utilisation et leur maintien futur",
-                    confirmText: 'Cool!'
+                    canCancel: 'outside',
+					confirmText: 'Cool!'
                 })
             },
             alertSTS() {
                 this.$buefy.dialog.alert({
                     title: 'STMictroelectronics (stage)',
                     message: "Développement d'outils de surveillance de réseau. Besoin d'améliorer la solution de surveillance par un outil open source d'évaluation (Zabbix) recueillir les besoins et développer une nouvelle interface web",
-                    confirmText: 'Cool!'
+                    canCancel: 'outside',
+					confirmText: 'Cool!'
                 })
             },
 			alertAuphys() {
                 this.$buefy.dialog.alert({
                     title: 'Auphys Technologies (stage)',
                     message: "Stage de 8 semaines en tant que Web Développeur et Designer, avec notament la création de Auphys Works.",
-                    confirmText: 'Cool!'
+                    canCancel: 'outside',
+					confirmText: 'Cool!'
                 })
             },
 			alertLeonix() {
                 this.$buefy.dialog.alert({
                     title: 'Leonix Telecom (stage)',
                     message: "Stage de 6 semaines dans le pôle ingénierie en collaboration avec les équipes réseaux de l'opérateur Leonix Telecom.",
-                    confirmText: 'Cool!'
+                    canCancel: 'outside',
+					confirmText: 'Cool!'
                 })
             },
 			alertTwitter() {
                 this.$buefy.dialog.alert({
                     title: 'Twitter (Bénévolat)',
                     message: "Traducteur de l'anglais vers le français sur la plateforme de traduction de Twitter.",
-                    confirmText: 'Cool!'
+                    canCancel: 'outside',
+					confirmText: 'Cool!'
                 })
             }
         }
