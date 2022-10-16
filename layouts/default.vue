@@ -1,8 +1,7 @@
 <template>
 	<div class="primary">
         <NavBar />
-		<Core />
-		<parcours />
+		<Nuxt />
         <Footer />
     </div>
 </template>
@@ -12,6 +11,8 @@ import NavBar from '~/components/NavBar.vue';
 import NuxtLogo from '~/components/NuxtLogo.vue';
 import Footer from '~/components/Footer.vue';
 import Card from '~/components/Card.vue';
+import Core from '~/components/Core.vue';
+
 export default {
     name: "DefaultLayout",
     data() {
@@ -30,7 +31,7 @@ export default {
             ]
         };
     },
-    components: { NavBar, NuxtLogo, Footer, Card }
+    components: { NavBar, NuxtLogo, Footer, Card, Core }
 }
 </script>
 

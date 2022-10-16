@@ -9,7 +9,7 @@ export default {
 	head: {
 		title: 'axsiow.tf_v2',
 		htmlAttrs: {
-		lang: 'en'
+		lang: 'fr'
 		},
 		meta: [
 		{ charset: 'utf-8' },

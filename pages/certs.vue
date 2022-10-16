@@ -1,6 +1,6 @@
 <template>
 	<div class="primary">
-		<Core />
+		<Card />
     </div>
 </template>
 
@@ -12,7 +12,7 @@ import Footer from '../components/Footer.vue'
 import Core from '../components/Core.vue'
 
 export default {
-	name: 'IndexPage',
+	name: 'CertificationsPage',
 	components: {
     Card,
 	NuxtLogo,
@@ -24,10 +24,5 @@ export default {
 </script>
 
 <style>
-.primary {
-	min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
 </style>
