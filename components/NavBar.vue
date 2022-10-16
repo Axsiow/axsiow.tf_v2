@@ -4,7 +4,21 @@
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
 				<div class="buttons">
 					<a class="button is-primary">
-						<strong>Home</strong>
+						<strong>About</strong>
+					</a>
+				</div>
+			</b-navbar-item>
+            <b-navbar-item tag="router-link" :to="{ path: '/certs' }">
+				<div class="buttons">
+					<a class="button is-primary">
+						<strong>Certifications</strong>
+					</a>
+				</div>
+			</b-navbar-item>
+            <b-navbar-item tag="router-link" :to="{ path: '/works' }">
+				<div class="buttons">
+					<a class="button is-primary">
+						<strong>Travaux</strong>
 					</a>
 				</div>
 			</b-navbar-item>
@@ -14,13 +28,10 @@
         </template>
 
         <template #end>
-            <b-navbar-item tag="div">
+            <b-navbar-item tag="router-link" :to="{ path: '/contact' }">
                 <div class="buttons">
-                	<a class="button is-primary">
-                        <strong>About</strong>
-                    </a>
                     <a class="button is-light">
-                        Contacts
+                        Contact
                     </a>
                 </div>
             </b-navbar-item>
