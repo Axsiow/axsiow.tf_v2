@@ -1,6 +1,5 @@
 <template>
 			<!-- SHORT PRES-->
-	
 	<div class="corePage">
 		<h1 class="title is-1">Présentation rapide</h1>
 		<div class="container">
